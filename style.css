@@ -1,0 +1,112 @@
+/* Default */
+.pane {
+}
+
+.edge {
+}
+
+.edgeSameObject {
+	-fx-stroke-dash-array: 5;
+	-fx-stroke: #AAAAAA;
+}
+
+.node {
+}
+
+/* Gray Skin */
+.grayNode {
+	-fx-padding: 10;
+	-fx-background-color: #CCCCCC, linear-gradient(#EEEEEE, #DDDDDD);
+	-fx-background-radius: 25, 25;
+	-fx-background-insets: 0, 2;
+	-fx-effect: none;
+	-fx-text-fill: #000000;
+	-fx-text-alignment: center;
+}
+
+.grayEdge {
+	-fx-stroke: #CCCCCC;
+	-fx-stroke-width: 2;
+}
+
+/* FoelliX Skin */
+.green {
+	-fx-padding: 10;
+	-fx-background-color: linear-gradient(#b6db76, #cedb76);
+	-fx-background-radius: 5;
+	-fx-background-insets: 1;
+	-fx-effect: none;
+	-fx-text-fill: #586340;
+	-fx-font-weight: bold;
+	-fx-text-alignment: center;
+	
+	-fx-border-color: #586340;
+    -fx-border-width: 2; 
+    -fx-border-style: solid;
+	-fx-border-radius: 6;
+}
+.green:hover {
+	-fx-background-color: #586340, linear-gradient(#cedb76, #b6db76);
+	-fx-cursor: hand;
+}
+.green:pressed {
+	-fx-background-color: #586340, #cedb76;
+}
+
+.red {
+	-fx-padding: 10;
+	-fx-background-color: linear-gradient(#cc8383, #e3ab8a);
+	-fx-background-radius: 5;
+	-fx-background-insets: 1;
+	-fx-effect: none;
+	-fx-text-fill: #586340;
+	-fx-font-weight: bold;
+	-fx-text-alignment: center;
+	-fx-cursor: hand;
+	
+	-fx-border-color: #5c5c5c;
+    -fx-border-width: 2; 
+    -fx-border-style: solid;
+	-fx-border-radius: 6;
+}
+.red:hover {
+	-fx-background-color: #586340, linear-gradient(#e3ab8a, #cc8383);
+	-fx-cursor: hand;
+}
+.red:pressed {
+	-fx-background-color: #586340, #e3ab8a;
+}
+
+.blue {
+	-fx-padding: 10;
+	-fx-background-color: linear-gradient(#90b6d6, #8ad4e3);
+	-fx-background-radius: 5;
+	-fx-background-insets: 1;
+	-fx-effect: none;
+	-fx-text-fill: #586340;
+	-fx-font-weight: bold;
+	-fx-text-alignment: center;
+	-fx-cursor: hand;
+	
+	-fx-border-color: #5c5c5c;
+    -fx-border-width: 2; 
+    -fx-border-style: dashed;
+	-fx-border-radius: 6;
+}
+.blue:hover {
+	-fx-background-color: #586340, linear-gradient(#8ad4e3, #90b6d6);
+	-fx-cursor: hand;
+}
+.blue:pressed {
+	-fx-background-color: #586340, #8ad4e3;
+}
+
+.edgeFX {
+	-fx-stroke: #586340;
+	-fx-stroke-width: 2;
+}
+
+.paneFX {
+	-fx-background-color: #000000, linear-gradient(#cccccc, #999999);
+	-fx-background-insets: 0, 1;
+}

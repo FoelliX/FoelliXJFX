@@ -1,0 +1,8 @@
+*.psd
+/.classpath*
+/.project
+/.settings
+/bin
+/build
+/releases
+/target
