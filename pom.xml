@@ -5,6 +5,10 @@
 	<artifactId>FoelliXJFX</artifactId>
 	<version>1.0.0</version>
 
+	<name>FoelliX JFX</name>
+	<description>FoelliX JavaFX Library</description>
+	<url>https://github.com/FoelliX/FoelliXJFX</url>
+
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<javafx.version>18-ea+4</javafx.version>
@@ -52,7 +56,7 @@
 					<plugin>
 						<groupId>org.apache.maven.plugins</groupId>
 						<artifactId>maven-gpg-plugin</artifactId>
-						<version>3.0.1</version>
+						<version>1.6</version>
 						<executions>
 							<execution>
 								<id>sign-artifacts</id>
@@ -71,7 +75,7 @@
 						<extensions>true</extensions>
 						<configuration>
 							<serverId>ossrh</serverId>
-							<nexusUrl>https://oss.sonatype.org/</nexusUrl>
+							<nexusUrl>https://s01.oss.sonatype.org/</nexusUrl>
 							<autoReleaseAfterClose>true</autoReleaseAfterClose>
 						</configuration>
 					</plugin>
@@ -107,7 +111,7 @@
 					<target>17</target>
 				</configuration>
 			</plugin>
-			
+
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-assembly-plugin</artifactId>
@@ -163,9 +167,9 @@
 	<developers>
 		<developer>
 			<name>Felix Pauck</name>
-			<email>fpauck@mail.uni-paderborn.de</email>
-			<organization>Paderborn University</organization>
-			<organizationUrl>https://cs.uni-paderborn.de</organizationUrl>
+			<email>my@FoelliX.de</email>
+			<organization>FoelliX.de</organization>
+			<organizationUrl>https://FoelliX.de</organizationUrl>
 		</developer>
 	</developers>
 
@@ -185,11 +189,11 @@
 	<distributionManagement>
 		<snapshotRepository>
 			<id>ossrh</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots</url>
+			<url>https://s01.oss.sonatype.org/content/repositories/snapshots</url>
 		</snapshotRepository>
 		<repository>
 			<id>ossrh</id>
-			<url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+			<url>https://s01.oss.sonatype.org/service/local/staging/deploy/maven2/</url>
 		</repository>
 	</distributionManagement>
 </project>
